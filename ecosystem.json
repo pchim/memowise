@@ -12,8 +12,8 @@
     "production": {
       "user": "root",
       "host": "104.131.171.183",
-      "ref": "origin/master",
-      "repo": "git@github.com:wonky-mongoose/wonky-mongoose.git",
+      "ref": "origin/deployTest",
+      "repo": "git@github.com:pchim/wonky-mongoose.git",
       "path": "/var/www/production",
       "post-deploy": "npm install && npm run build-server-prod && HOST=104.131.171.183 PORT=80 PROTOCOL=http NODE_ENV=production webpack --progress && pm2 startOrRestart ecosystem.json --env production"
     }
