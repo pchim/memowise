@@ -4,14 +4,14 @@
     "script": "./dist/server/server.js",
     "env_production": {
       "NODE_ENV": "production",
-      "HOST": "104.131.171.183",
+      "HOST": "104.236.223.237",
       "PORT": 80
     }
   }],
   "deploy": {
     "production": {
       "user": "root",
-      "host": "104.131.171.183",
+      "host": "104.236.223.237",
       "ref": "origin/deployTest",
       "repo": "git@github.com:pchim/wonky-mongoose.git",
       "path": "/var/www/production",
